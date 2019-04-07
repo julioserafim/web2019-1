@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#div1{
+
+border: 3px solid blue;
+
+margin-top: 10px;
+margin-left: 30px;
+
+margin-right: 60px;
+
+height: 1200px;
+width: 1200px;
+
+
+
+}
+
+
+
+h1{
+    background-image: url(../img/goku.png);
+
+}
+
+
+#formatacao{
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 30px;
+}
+
+.paragrafo{
+color: blue;
+}
+
+span.paragrafo{
+    color: red;
+}
+
+
+#segundo-paragrafo{
+    color: aqua;
+}
+
+#rodape img{
+    width: 200px;
+}
+
+
+h2 ~ p{
+    color: orangered;
+}
+
+h2 + p{
+    color: magenta;
+}
+
+article > h1{
+    color: aqua;
+}
+
+/*p:not(.especial){
+    color: rgb(211, 211, 211);
+}*/
+
+
+li:nth-child(3){
+    color: magenta;
+
+}
+
+p::first-letter{
+    font-size: 200%;
+}
+
+
+
+
+#conteudo{
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+    top: 10px;
+    
+    
+    position: relative;
+}
+
+#container{
+    margin-top:60px;
+    border: 1px solid red;
+}
+
+.conteudo{
+    background-color: blue;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+#paragrafo-clear{
+    clear: both;
+}
